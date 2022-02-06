@@ -20,7 +20,7 @@ class _RecommendedForYouCardState extends State<RecommendedForYouCard> {
     return Container(
       height: 180.toHeight,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(40.toHeight),
+          borderRadius: BorderRadius.circular(30.toHeight),
           boxShadow: [
             BoxShadow(
               color: AppColors.grey.withOpacity(.6),
@@ -43,8 +43,8 @@ class _RecommendedForYouCardState extends State<RecommendedForYouCard> {
                 height: 100.toHeight,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(40.toHeight),
-                      topRight: Radius.circular(40.toHeight)),
+                      topLeft: Radius.circular(30.toHeight),
+                      topRight: Radius.circular(30.toHeight)),
                   image: DecorationImage(image: imgBuilder, fit: BoxFit.cover),
                 ),
               );
@@ -54,8 +54,8 @@ class _RecommendedForYouCardState extends State<RecommendedForYouCard> {
                 height: 100.toHeight,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(40.toHeight),
-                      topRight: Radius.circular(40.toHeight)),
+                      topLeft: Radius.circular(30.toHeight),
+                      topRight: Radius.circular(30.toHeight)),
                 ),
               );
             },
